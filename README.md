@@ -7,11 +7,11 @@
 </br>
 </br>
 </br>參考資料：</br>
-</br>https://www.konami.com/games/momotetsu/2/map/area/east/</br>
-</br>https://www.konami.com/games/momotetsu/2/map/area/west/</br>
-</br>https://gamerch.com/momotetsu2/</br>
-</br>https://gamepedia.jp/momotetsu2/</br>
+</br>https://www.konami.com/games/momotetsu/2/map/area/east</br>
+</br>https://www.konami.com/games/momotetsu/2/map/area/west</br>
+</br>https://gamerch.com/momotetsu2</br>
+</br>https://gamepedia.jp/momotetsu2</br>
 </br>https://game8.jp/momotetsu-2</br>
-</br>https://gamewith.jp/momotetsu2/</br>
+</br>https://gamewith.jp/momotetsu2</br>
 </br>https://forum.gamer.com.tw/C.php?bsn=6115&snA=479&tnum=1</br>
 </br>https://forum.gamer.com.tw/C.php?bsn=6115&snA=478&tnum=1</br>
