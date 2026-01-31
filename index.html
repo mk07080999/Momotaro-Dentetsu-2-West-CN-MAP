@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
   <title>桃太郎電鐵2-地圖攻略-西日本篇2.0</title>
 
-  <!-- Leaflet 样式 -->
+  <!-- Leaflet 样式 Momotaro-Dentetsu-2-West-CN-MAP-->
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.fullscreen/1.6.0/Control.FullScreen.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet-minimap/dist/Control.MiniMap.min.css" />
@@ -263,209 +263,209 @@
  var icons = {
    //都道府縣廳
     phoenix_city: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-city.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-city.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//卡片賣場1-49年2
     phoenix_shop0Y: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-shop-before.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-shop-before.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//歷史英雄2
     phoenix_hero: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-hero.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-hero.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//搭乘直昇機站2
     phoenix_ramp: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-ramp.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-ramp.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//重置周遊車站2
     phoenix_battery: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-battery.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-battery.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//卡片複製車站2
     phoenix_copy: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-copy.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-copy.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//抽獎周遊車站2
     phoenix_lottery: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-lottery.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-lottery.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//好卡片車站2
     phoenix_ncard: L.icon({
-      iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-ncard.svg',
+      iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-ncard.svg',
       iconSize: [25, 41],
       iconAnchor: [12, 41],
       popupAnchor: [1, -34],
-      shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+      shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
       shadowSize: [41, 41]
     }),
 	//卡片賣場50年後2
    phoenix_shop50Y: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-shop-now.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-shop-now.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //鐵道站
   phoenix_railway: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-icon-2x-s-1-railway.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-icon-2x-s-1-railway.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //銀行
   phoenix_bank: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-icon-2x-s-1-bank',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-icon-2x-s-1-bank.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //名產怪獸2
   phoenix_monster: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-monster.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-monster.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //機場車站2
   phoenix_sky: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-sky.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-sky.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //剝奪卡車站2-NEW1
   phoenix_steal: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-steal.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-steal.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //雪鏟車賣場車站2-NEW2-東日本
   phoenix_shop_s: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-shop-s.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-shop-s.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //雪鏟車賣場車站2(50Y)-NEW2.5-東日本
   phoenix_shop_s50Y: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-shop-s-now.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-shop-s-now.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //潛水艇車站2-NEW3-西日本
   phoenix_unsea: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-unsea.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-unsea.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //和牛-西日本-NEW
   phoenix_cow: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-cow.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-cow.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //古城-西日本-NEW
   phoenix_town: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-town.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-town.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //糖-西日本-NEW
   phoenix_sugar: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-sugar.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-sugar.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //俳句-東日本-NEW
   phoenix_haiku: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-haiku.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-haiku.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //市場-東日本-NEW
   phoenix_mart: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-mart.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-mart.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   //事件-NEW
   phoenix_sp: L.icon({
-    iconUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/map2-marker-icon-1-0-sp.svg',
+    iconUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/map2-marker-icon-1-0-sp.svg',
     iconSize: [25, 41],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
-    shadowUrl: 'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images/marker-shadow.png',
+    shadowUrl: 'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/marker-shadow.png',
     shadowSize: [41, 41]
   }),
   // 自訂圖示 最後位置要保留
@@ -491,13 +491,13 @@
 
   // 主圖層
   var mainOverlay = L.imageOverlay(
-    'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/MAP2_C_6510_80_1_5.jpg',
+    'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/MAP2_C_6510_80_1_5.jpg',
     bounds
   ).addTo(map);
 
   // 小地圖圖層
   var miniMapLayer = L.imageOverlay(
-    'https://phoenix-open-image.s3.ap-southeast-2.amazonaws.com/images2/MAP2_C_6510_80_1_5.jpg',
+    'https://raw.githubusercontent.com/mk07080999/Momotaro-Dentetsu-2-West-CN-MAP/refs/heads/main/assets%20/images/MAP2_C_6510_80_1_5.jpg',
     bounds,
     { interactive: false, crossOrigin: false, noWrap: true }
   );
